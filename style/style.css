@@ -1,14 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Coda&display=swap');
+
+:root{
+    --font1:'Coda', cursive;
+    --font2:'Bungee', cursive;
+    --font3: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 
 html, body{
     min-height: 100vh;
     background-color: darkgray;
-
+    font-family: var(--font1);
 }
 
 header{
@@ -20,6 +32,8 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
 }
 
 header > p{
@@ -37,6 +51,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 3vw;
 }
 
 a:hover{
@@ -50,7 +65,8 @@ a:hover{
 
 .imagem p{
     background-color: rgba(30, 28, 28, 0.408);
-    width: 300px;
+    display: inline-block;
+    padding: 10px;
 }
 
 .imagem{
