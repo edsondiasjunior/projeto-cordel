@@ -70,6 +70,7 @@ a:hover{
     background-color: rgba(30, 28, 28, 0.408);
     display: inline-block;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .imagem{
